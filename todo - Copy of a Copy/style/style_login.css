@@ -1,0 +1,167 @@
+body{
+	background: url("../img/a.jpg");
+	background-size: cover; 
+	background-repeat: no-repeat;
+  	background-attachment: scroll;
+  	background-position: top left;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+nav{
+	background-color: rgba(0,0,0,0.8);
+	width: 100%;
+	height: 80px;
+	font-size: 30px;
+}
+
+nav header {
+	display: inline-block;
+	font-size: 40px;
+	margin: 10px;
+	margin-left: 5%;
+	border: 2px solid rgb(25, 146, 155);
+	border-radius: 5px;
+	padding: 5px;
+	color: rgb(25, 146, 155);
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+p{
+	text-align: center;
+}
+/**/
+.remember{
+	color: rgb(25, 146, 155);
+	float: right;
+	transform: translate(-8%, 85%);
+}
+
+input[type="checkbox"]{
+	transform: translate(850%, -140%);
+}
+
+/**/
+.text{
+	display: inline-block;
+	position: relative;
+	margin-top: 13%;
+	margin-left: 5%;	
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+	transition: 0.25s;
+	padding: 0 30px;
+}
+
+.quote{
+	color: rgb(25, 146, 155);
+	font-size: 30px;
+}
+
+.started{
+	color: rgb(25, 146, 155);
+	font-size: 20px;
+	text-align: center;
+}
+
+.login{
+	width: 300px;
+	padding: 40px;
+	position: relative;
+	display: block;
+	float: right;
+	margin-right: 5%;
+	margin-top: 7%;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 10px;
+}
+
+.login input[type = "text"], .login input[type = "password"]{
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid rgb(25, 146, 155);
+	border-radius: 5px;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: black;
+	transition: 0.25s;
+	color: white;
+}
+
+.login h1{
+	color: rgb(25, 146, 155);
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.login input[type = "text"]:focus, .login input[type = "password"]:focus{
+	width: 220px;
+	border-color: rgb(25, 146, 155);
+}
+
+.login input[type = "submit"]{
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid rgb(25, 146, 155);
+	border-radius: 5px;
+	padding: 14px 10px;
+	outline: none;
+	color: gray;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+.login input[type = "submit"]:hover{
+	background-color: rgb(25, 146, 155);
+	border-color: rgb(25, 146, 155);
+	color: white;
+}
+
+.login input[type = "submit"]:focus{
+	background-color: rgb(25, 146, 155);
+	color: white;
+}
+
+.login ::placeholder {
+	color: gray;
+}
+
+.login a{
+	float:left;
+	text-decoration: none;
+	color: rgb(25, 146, 155);
+	border-radius: 5px;
+	transform: translate(-25%, 40%);
+	transition: 0.25s;
+	padding: 14px 10px;
+}
+
+.login a:hover{
+	background-color: rgb(25, 146, 155);
+	border-radius: 5px;
+	color: white;
+}
+
+.login h1 {
+	text-align: center;
+}
+
+.cover {
+	background-color: rgba(0, 0, 0, 0.2);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+

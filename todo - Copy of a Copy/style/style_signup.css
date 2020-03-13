@@ -1,0 +1,107 @@
+body{
+    background: url("../img/a.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top left; 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 80px;
+}
+
+nav header {
+    display: inline-block;
+    font-size: 40px;
+    margin: 10px;
+    margin-left: 5%;
+    border: 2px solid rgb(25, 146, 155);
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(25, 146, 155);
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.cover {
+    background-color: rgba(0, 0, 0, 0.2);
+    min-height: 100vh;
+    min-width: 100vw;
+    top: 0;
+    bottom: 100;
+    position: absolute;
+}
+
+.sign-up{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    width: 320px;
+    height: auto;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+.sign-up input[type="text"], .sign-up input[type="email"], .sign-up input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid rgb(25, 146, 155);
+    border-radius: 5px;
+    padding: 15px 10px;
+    width: 200px;
+    outline: none;
+    transition: 0.25s;
+    color: white;   
+}
+
+.sign-up input[type="submit"]{
+    display: block;
+    margin-left: 38%;
+    background: none;
+    border: 2px solid rgb(25, 146, 155);
+    border-radius: 5px;
+    color: rgb(25, 146, 155);
+    font-size: 20px;
+    height: 45px;
+}
+
+.sign-up h1{
+    font-size: 35px;
+    font-weight: normal;
+    padding: 20px;
+    color: rgb(25, 146, 155);
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.sign-up input[type="text"]:focus, .sign-up input[type="email"]:focus, .sign-up input[type="password"]:focus{
+    width: 220px;
+}
+
+.sign-up input[type = "submit"]:hover{
+    background-color: rgb(25, 146, 155);
+    color: white;
+    transition: 0.3s;
+}
+
+.message{
+    text-align: center;
+    transform: translate(0, -90%);
+}

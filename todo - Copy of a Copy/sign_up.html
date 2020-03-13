@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ToDo: Sign Up</title>
+        <link rel="stylesheet" type="text/css" href="style/style_signup.css">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+        <script src='sign_up.js'></script>
+    </head>
+
+    <body>
+        <div class="cover">
+            <nav>
+                <header>ToDo</header>
+            </nav>
+
+            <form action="sign_up.php" method='post' class="sign-up">
+
+                <h1>Sign Up</h1>
+
+                <input type="text" onkeyup="check()" id="username" name="username" pattern="[A-Za-z0-9]+" placeholder="Username" onfocus="this.placeholder = ''" onblur = "this.placeholder = 'Username'" required><br>
+
+                <input type="email" onkeyup="check()" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" onfocus="this.placeholder = ''" onblur = "this.placeholder = 'Email'" required><br>
+
+                <input type="password" id="pass" onkeyup="check()" name="pass" placeholder="Password" onfocus="this.placeholder = ''" onblur = "this.placeholder = 'Password'" required><br>
+
+                <input type="password" id="passrep" onkeyup="check()" name="passrep" placeholder="Repeat Password" onfocus="this.placeholder = ''" onblur = "this.placeholder = 'Repeat Password'" required><br>
+
+                <div class="message">
+                    <span id='message'>-</span>
+                </div>
+
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
